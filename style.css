@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+#writeAbove{
+    position: absolute;
+    color:cornsilk;
+    text-align: center;
+    background-size: cover;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px 20px;
+}
+
+#writeAbove h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif
+    line-height: 1.2; /* Adjust for spacing as needed */
+}
+
+
+#journeyText {
+    white-space: nowrap; /* Prevent text from wrapping */
+    margin-right: 10px; /* Add spacing between the two parts */
+    
+}
+
+#storyText {
+    font-size: 3.5rem; /* Adjust the font size for "STORY-WORTHY DESTINATION" */
+    font-family:'Times New Roman', Times, serif;
+    white-space: nowrap;
+}
+
+#writeAbove span {
+    display: inline-block; /* This ensures the span is displayed inline */
+    margin-left: 10px; /* Adjust the margin as needed to separate the words */
+}
+
+.mentionText{
+    position: sticky;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    top: 90%;
+    left: 15%;
+    right: 15%;
+}
+
+#image5{
+    background-image: url(greece-in-evening\ \(2\).png);
+    height: 600px;
+    width: 500px;
+    background-position: center;
+    transition: opacity 0.7s ease-in-out;
+
+}
+
+#image5:hover {
+    filter: brightness(0.8);
+    z-index: -1;
+ }
+
+
+#image4{
+    background-image: url(paris-in-evening\ \(1\).png);
+    height: 600px;
+    width: 500px;
+    background-position: center;
+    transition: opacity 0.7s ease-in-out;
+
+}
+
+#image4:hover {
+   filter: brightness(0.8);
+   z-index: -1;
+}
+
+#image3{
+    background-image: url(amsterdam-in-the-evening\ \(3\).png);
+    height: 600px;
+    width: 500px;
+    background-position: center;
+    transition: opacity 0.7s ease-in-out;
+}
+
+#image3:hover {
+    filter: brightness(0.8);
+    z-index: -1;
+ }
+
+.navbar {
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    top: -20px;
+    right: -10px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    /* justify-content:; */
+}
+
+.navbar li {
+    display:inline-flex; /* Display list items horizontally */
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: antiquewhite ; /* Text color of the links */
+    width: 100px;
+    display: block;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline ; /* Underline links on hover */
+
+
+}
+
+.navbar:first-child{
+    align-content: start;
+}
+
+.login{
+    padding: .5rem 1rem;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    gap: 0.2rem;
+    font-weight: 600;
+    color:antiquewhite;
+    background-color:rgb(53, 68, 97);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login:hover{
+    background-color:rgb(156, 114, 76);
+}
+.login span{
+    padding: 0px;
+    font-size: 1rem;
+    color:antiquewhite;
+}
+
+
